@@ -1,0 +1,39 @@
+@import "./colors.scss";
+
+:root {
+    --magic-color-primary: var(--magic-color-primary-6);
+    --magic-color-primary-hover: var(--magic-color-primary-5);
+    --magic-color-primary-active: var(--magic-color-primary-7);
+    --magic-color-primary-selected: var(--magic-color-primary-1);
+
+    --magic-color-success: var(--magic-color-success-6);
+    --magic-color-success-hover: var(--magic-color-success-5);
+    --magic-color-success-active: var(--magic-color-success-7);
+    --magic-color-success-selected: var(--magic-color-success-1);
+
+    --magic-color-warning: var(--magic-color-warning-6);
+    --magic-color-warning-hover: var(--magic-color-warning-5);
+    --magic-color-warning-active: var(--magic-color-warning-7);
+    --magic-color-warning-selected: var(--magic-color-warning-1);
+
+    --magic-color-error: var(--magic-color-error-5);
+    --magic-color-error-hover: var(--magic-color-error-4);
+    --magic-color-error-active: var(--magic-color-error-7);
+    --magic-color-error-selected: var(--magic-color-error-1);
+
+    --tov-color-base: #000000e0;
+    --tov-color-text: #000000e0;
+    --tov-color-text-secondary: #000000a6;
+    --tov-color-disabled: #00000040;
+    --tov-color-border: #d9d9d9ff;
+    --tov-color-divider: #0505050f;
+    --tov-color-bg: #f5f5f5ff;
+
+    --tov-color-dark-base:#FFFFFFD9;
+    --tov-color-dark-text:#FFFFFFD9;
+    --tov-color-dark-text-secondary:#FFFFFFA6;
+    --tov-color-dark-disabled: #FFFFFF40;
+    --tov-color-dark-border: #424242FF;
+    --tov-color-dark-divider: #FDFDFD1F;
+    --tov-color-dark-bg: #000000FF;
+}
